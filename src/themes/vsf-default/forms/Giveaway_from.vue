@@ -111,7 +111,7 @@ export default {
             Host: "smtp.elasticemail.com",
             Username: "humanabstract9@gmail.com",
             Password: "2A5FBB4CB47B0C9576CC73C37D32FBE9C440",
-            To: 'zaid.m@parashifttech.com',
+            To: 'support@humansabstract.com',
             From: 'humanabstract9@gmail.com',
             Subject: 'Form Submission',
             Body: this.getEmailBody(formName, formattedDate),
@@ -229,9 +229,6 @@ export default {
     const yearNameInput = document.querySelector('.year');
     const portfolioNameInput = document.querySelector('.portfolio');
     const descriptionNameInput = document.querySelector('.description');
-
-  
-
 
   },
 };

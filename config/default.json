@@ -784,20 +784,20 @@
     "disablePersistentTaskQueue": true
   },
   "i18n": {
-    "defaultCountry": "US",
+    "defaultCountry": "IN",
     "defaultLanguage": "EN",
     "availableLocale": [
       "en-US"
     ],
     "defaultLocale": "en-US",
-    "currencyCode": "USD",
-    "currencySign": "$",
+    "currencyCode": "INR",
+    "currencySign": "₹",
     "currencyDecimal": "",
     "currencyGroup": "",
     "fractionDigits": 2,
     "priceFormat": "{sign}{amount}",
     "dateFormat": "HH:mm D/M/YYYY",
-    "fullCountryName": "United States",
+    "fullCountryName": "India",
     "fullLanguageName": "English",
     "bundleAllStoreviewLanguages": false
   },
