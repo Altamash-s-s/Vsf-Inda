@@ -44,11 +44,17 @@
         <div class="parallax-image section5">
 
           <!-- <video src="../assets/icons/home-video.mp4" playsinline autoplay muted loop></video> -->
-          <video class="desktop_liner_video" id="banner_video" playsinline autoplay control muted loop>
+          <!-- <video class="desktop_liner_video" id="banner_video" playsinline autoplay control muted loop>
             <source src="https://magento-1208470-4297114.cloudwaysapps.com/home-video/oneliner_desk_video.mp4" type="video/mp4" />
           </video>
           <video class="tab_liner_video" id="banner_video" playsinline autoplay control muted loop>
             <source src="https://magento-1208470-4297114.cloudwaysapps.com/home-video/oneliner_mob_video.mp4" type="video/mp4" />
+          </video> -->
+          <video class="desktop_liner_video" id="banner_video" playsinline autoplay control muted loop>
+            <source src="/assets/desktop_test.mp4" type="video/mp4" />
+          </video>
+          <video class="tab_liner_video" id="banner_video" playsinline autoplay control muted loop>
+            <source src="/assets/Mobile_test.mp4" type="video/mp4" />
           </video>
 
         </div>
@@ -90,12 +96,19 @@
         </div>
         <div class="parallax-image section5">
           <!-- <video src="../assets/icons/home-video.mp4" playsinline autoplay muted loop></video> -->
-          <video class="desktop_wntr_video" id="banner_video1" playsinline autoplay control muted loop>
+          <!-- <video class="desktop_wntr_video" id="banner_video1" playsinline autoplay control muted loop>
             <source src="https://magento-1208470-4297114.cloudwaysapps.com/home-video/winter_desk_video.mp4" type="video/mp4" />
           </video>
           <video class="tab_wntr_video" id="banner_video1" playsinline autoplay control muted loop>
             <source src="https://magento-1208470-4297114.cloudwaysapps.com/home-video/winter_mob_video.mp4" type="video/mp4" />
+          </video> -->
+          <video class="desktop_wntr_video" id="banner_video1" playsinline autoplay control muted loop>
+            <source src="/assets/desktop_test.mp4" type="video/mp4" />
           </video>
+          <video class="tab_wntr_video" id="banner_video1" playsinline autoplay control muted loop>
+            <source src="/assets/Mobile_test.mp4" type="video/mp4" />
+          </video>
+
         </div>
 
       </div>
@@ -853,7 +866,8 @@ h6.para {
 #banner_video  , #banner_video1{
     width: 100%;
     height: 100vh;
-    object-position: bottom;
+    object-fit: cover;
+    object-position: top;
 }
 .parallax-section .parallax-content {
     -webkit-box-align: center;
